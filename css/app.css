@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+}
+:root{
+    --bs-blue:#037BC0;
+    --bs-green:#8cbc00;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1,h2,h3{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 3.8rem;
+}
+@media (min-width:768px) {
+    h1{
+        font-size: 5rem;
+    }
+}
+h2{
+    font-size: 3.2rem;
+}
+@media (min-width:768px) {
+    h2{
+        font-size: 4rem;
+    }
+}
+h3{
+    font-size: 2.4rem;
+}
+@media (min-width:768px) {
+    h3{
+        font-size: 3.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .no-border-md {
+        border: 0 !important;
+    }
+}
+
+.text-primary,
+.nombre-sitio{
+    color: var(--bs-blue) !important;
+}
+.btn-success {
+    background-color: var(--bs-green) !important;
+}
+.bg-primary{
+    background-color: var(--bs-blue) !important;
+}
+.hero{
+    background-image: url("../img/principal.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+}
+
+@media (min-width:768px) {
+    .productos img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width:480px) {
+    .w-telefono{
+        width: 100%;
+    }
+}
+
+.categoria img{
+    transition-property: transform;
+    transition-duration:300ms ;
+}
+.categoria img:hover{
+    transform: scale(1.2);
+}
+
+.boton{
+    width: 250px;
+}
